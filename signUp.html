@@ -2,15 +2,7 @@
 <html ng-app>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
-    <script>
-function check(){
-var access = document.getElementById('password').innerHTML;
-if(access.length < 8){
-alert('your password is too short!');
-
-}
-}
-    </script>
+  
     <style>
 html{
 	background-color: gray;
@@ -60,7 +52,7 @@ li a:hover:not(.active) {
 
       
       <input autofocus type="text" ng-model="yourName" placeholder="Username"><br>
-      <input id = "password"type="password" placeholder="Password"></input><br>
+      <input type="password" placeholder="Password"></input><br>
       <input type="password" placeholder="Confirm Password"></input><br>
       <button onclick="check()">Sign Up</button>
 
