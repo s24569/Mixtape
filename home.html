@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app= "test">
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+<title>Home</title>
 <style>
 body {margin:0;}
 
@@ -38,6 +38,18 @@ li a:hover:not(.active) {
 li:last-child {
     border-right: none;
 }
+li:last-child {
+    border-right: none;
+}
+#top{
+  
+  margin-top: 25%;
+}
+
+#middle{
+  background-color: gray;
+  padding-top: 25%;
+}
 </style>
 </head>
 <body>
@@ -46,23 +58,25 @@ li:last-child {
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a href="SignIn.html">Sign In</a></li>
    
 </ul>
 
+<div id= "top">
+<center>
+<h1 id= " ">
+Decibell
 
-<div style="padding:20px;margin-top:30px;background-color:gray;height:1500px;">
-      <label>Name:</label>
-      <input type="text" ng-model="yourName" placeholder="Enter a name here">
-      <hr>
-      <h1>Hello {{yourName}}!</h1>
-    </div>
+</h1>
+</center>
+
+</div>
+
+<div id= "middle">
+
+
+
 </div>
 
 </body>
 </html>
-
-
-
-
-
-
