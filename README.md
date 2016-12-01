@@ -1,4 +1,4 @@
-# Mixtape
+# Decibell
 
 This project is about creating software that will give users the ability to create, fork, market, and sell music
 
